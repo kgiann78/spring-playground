@@ -1,0 +1,97 @@
+{
+	"id": "55ccb286-f052-55ed-4576-1d025e4b1ccb",
+	"name": "rest service examples",
+	"description": "",
+	"order": [
+		"600a36ea-01d4-d572-f561-8eb617db9333",
+		"9aa9386b-f079-4cb4-073e-32822caff3d6"
+	],
+	"folders": [],
+	"timestamp": 1500991068187,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "600a36ea-01d4-d572-f561-8eb617db9333",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8082/bring/it?name=alekos",
+			"queryParams": [
+				{
+					"key": "name",
+					"value": "alekos",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "55ccb286-f052-55ed-4576-1d025e4b1ccb",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8082/bring/it?name=alekos",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1500991084928,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"name\":\"alekos\"}"
+		},
+		{
+			"id": "9aa9386b-f079-4cb4-073e-32822caff3d6",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8082/bring/it",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "55ccb286-f052-55ed-4576-1d025e4b1ccb",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8082/bring/it",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1500991092060,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"name\":\"alekos\"}"
+		}
+	]
+}
